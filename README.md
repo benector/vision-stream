@@ -1,4 +1,4 @@
-# VisionStream TV 3.0: T-Commerce Inteligente com IA
+# VisionStream TV 3.0: T-Commerce Inteligente com Visão Computacional
 ![Mockup da TV](static/cover.png)
 
 
