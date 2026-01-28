@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>VisionStream Demo</title>
+</head>
+<body>
+   <div class="container">
+     <div id="tv-app">
+<img id="main-video" src="/video-feed" style="width: 100%; height: auto; background: transparent;">
+    <button id="btn-toggle-stream" onclick="toggleStream()">🔴 ATIVAR VISIONSTREAM</button>
+    <div id="hub-cart" onclick="openPanel()">🛒 <span id="label-count">0</span> </div>
+
+    <div id="side-panel">
+        <div id="view-categories">
+            <div style="display:flex; justify-content: space-between; align-items: center; margin-bottom:20px;">
+                <h3 style="margin:0; color:#29c0f2	;">Oportunidades</h3>
+                <button onclick="closePanel()" style="background:none; border:none; font-size:20px; cursor:pointer;">✕</button>
+            </div>
+            <div id="category-list"></div>
+        </div>
+
+        <div id="view-detail" style="display:none;">
+            <button onclick="showCategories()" style="background:#f1f2f6; border:none; padding:8px 15px; border-radius:5px; cursor:pointer; margin-bottom:15px;">← Voltar</button>
+            <div id="detail-content"></div>
+        </div>
+    </div>
+</div>
+   </div>
+<div id="metadata-log" style="
+    background: #1e1e1e; 
+    color: #00ff00; 
+    font-family: 'Courier New', monospace; 
+    font-size: 11px; 
+    padding: 10px; 
+    max-height: 100px; /* Defina uma altura fixa ou use max-height */
+    overflow-y: auto; 
+    border-radius: 5px;
+    border: 1px solid #333;
+    line-height: 1.4;
+    white-space: pre-wrap; /* Mantém a formatação de espaços */
+">
+    <div id="log-content"></div>
+</div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

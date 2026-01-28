@@ -1,0 +1,119 @@
+{
+    "bowl": [
+        {
+            "id": "bowl_oxford",
+            "brand": "Oxford",
+            "name": "Bowl de Cerâmica Oxford Daily",
+            "price": "R$ 35 – R$ 55",
+            "url": "https://www.amazon.com.br/s?k=bowl+oxford+ceramica",
+            "img_url": "https://http2.mlstatic.com/D_NQ_NP_2X_792706-MLA99446194626_112025-F.webp",
+            "desc": "Bowl de cerâmica resistente para uso diário."
+        },
+        {
+            "id": "bowl_porto",
+            "brand": "Porto Brasil",
+            "name": "Bowl Porto Brasil Orgânico",
+            "price": "R$ 45 – R$ 70",
+            "url": "https://www.amazon.com.br/s?k=bowl+porto+brasil",
+            "img_url": "https://portobrasil.vtexassets.com/arquivos/ids/181400/1914109001---BOWL-ORGANICO-BREEZE---02.jpg?v=638351375911870000",
+            "desc": "Design orgânico e acabamento artesanal."
+        },
+        {
+            "id": "bowl_tramontina",
+            "brand": "Tramontina",
+            "name": "Bowl Tramontina Porcelana",
+            "price": "R$ 40 – R$ 65",
+            "url": "https://www.amazon.com.br/s?k=bowl+tramontina",
+            "img_url": "https://assets.tramontina.com.br/upload/tramon/imagens/DEL/96601261IXM002G.jpg",
+            "desc": "Porcelana branca clássica e durável."
+        }
+    ],
+    "handbag": [
+        {
+            "id": "bolsa_santa_lolla",
+            "brand": "Santa Lolla",
+            "name": "Bolsa Feminina Santa Lolla",
+            "price": "R$ 250 – R$ 350",
+            "url": "https://www.amazon.com.br/s?k=bolsa+santa+lolla",
+            "img_url": "https://santalolla.vtexassets.com/arquivos/ids/322589-800-800?v=638252911137030000&width=800&height=800&aspect=true",
+            "desc": "Bolsa feminina elegante para uso diário."
+        },
+        {
+            "id": "bolsa_anacapri",
+            "brand": "Anacapri",
+            "name": "Bolsa Anacapri Transversal",
+            "price": "R$ 180 – R$ 280",
+            "url": "https://www.amazon.com.br/s?k=bolsa+anacapri",
+            "img_url": "https://secure-static.anacapri.com.br/medias/sys_master/anacapri/anacapri/he0/hff/h00/h00/12025612304414/5003600030001U-01-BASEIMAGE-Midres.jpg",
+            "desc": "Modelo compacto e versátil."
+        },
+        {
+            "id": "bolsa_dumond",
+            "brand": "Dumond",
+            "name": "Bolsa Dumond Couro Sintético",
+            "price": "R$ 220 – R$ 320",
+            "url": "https://www.amazon.com.br/s?k=bolsa+dumond",
+            "img_url": "https://images.tcdn.com.br/img/img_prod/1235686/bolsa_tote_tramado_de_couro_ouro_light_prata_2233_1_b06f98b9285a222bb34a8f97eb2b6580.jpg",
+            "desc": "Design moderno com ótimo acabamento."
+        }
+    ],
+    "potted plant": [
+        {
+            "id": "vaso_tokstok",
+            "brand": "Tok&Stok",
+            "name": "Vaso Decorativo Tok&Stok",
+            "price": "R$ 90 – R$ 150",
+            "url": "https://www.amazon.com.br/s?k=vaso+decorativo+tok+stok",
+            "img_url": "https://tokstok.vteximg.com.br/arquivos/ids/20834534/vaso-decorativo-19-cm-s-lvia-tahoe_st0.jpg?v=638073176822730000",
+            "desc": "Vaso minimalista para ambientes internos."
+        },
+        {
+            "id": "vaso_mart",
+            "brand": "Mart",
+            "name": "Vaso Mart Cerâmica",
+            "price": "R$ 80 – R$ 140",
+            "url": "https://www.amazon.com.br/s?k=vaso+mart+ceramica",
+            "img_url": "https://images.tcdn.com.br/img/img_prod/329397/90_vaso_em_ceramica_15629_mart_33887_2_4ffee7d637019a75b859e19d27d49c35.jpg",
+            "desc": "Vaso decorativo em cerâmica premium."
+        },
+        {
+            "id": "vaso_artificial",
+            "brand": "Urban Arts",
+            "name": "Planta Artificial Decorativa",
+            "price": "R$ 70 – R$ 130",
+            "url": "https://www.amazon.com.br/s?k=planta+artificial+decorativa",
+            "img_url": "https://m.media-amazon.com/images/I/71B60TDY-vL._AC_UF894,1000_QL80_.jpg",
+            "desc": "Planta artificial para decoração interna."
+        }
+    ],
+    "cup": [
+    {
+        "id": "star_wars_coffee_mug",
+        "brand": "Hasbro",
+        "name": "Caneca Star Wars Coffee",
+        "price": "R$ 45 – R$ 70",
+        "url": "https://www.amazon.com.br/s?k=caneca+star+wars+coffee",
+        "img_url": "https://images.tcdn.com.br/img/img_prod/460977/caneca_darth_vader_star_wars_coffee_branca_111446_1_171c6f853969c098862bb2f77dca7bc2.jpeg",
+        "desc": "Caneca temática de Star Wars para amantes da saga."
+    },
+    {
+        "id": "classic_white_mug",
+        "brand": "Nescafé",
+        "name": "Caneca Branca Clássica",
+        "price": "R$ 15 – R$ 25",
+        "url": "https://www.amazon.com.br/s?k=caneca+branca",
+        "img_url": "https://cdn.awsli.com.br/1960/1960866/produto/135252253/caneca-para-sublima-o-importada-gsrt9qoe27.jpg",
+        "desc": "Caneca simples e resistente para café ou chá."
+    },
+       {
+        "id": "classic_black_mug",
+        "brand": "Nescafé",
+        "name": "Caneca PretaClássica",
+        "price": "R$ 15 – R$ 25",
+        "url": "https://www.amazon.com.br/s?k=caneca+branca",
+        "img_url": "https://http2.mlstatic.com/D_NQ_NP_2X_905017-MLB88895162543_072025-F.webp",
+        "desc": "Caneca simples e resistente para café ou chá."
+    }
+]
+
+}

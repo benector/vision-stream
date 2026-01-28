@@ -1,0 +1,157 @@
+/* =========================
+   1. CONTAINER PRINCIPAL
+   ========================= */
+body {
+    background: #454e7e;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px; /* altura do mockup da TV */
+    background-image: url('tv.png'); /* imagem de mockup da TV */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    font-family: sans-serif;
+}
+
+/* Tela da TV dentro do mockup */
+#tv-app {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+    background: #000;
+}
+
+#main-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Botão sobreposto sem afetar o layout do vídeo */
+#btn-toggle-stream {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 10;
+    padding: 5px 10px;
+    background: rgba(255, 0, 0, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* =========================
+   2. SIDEBAR
+   ========================= */
+#side-panel {
+    position: absolute;
+    top: 0;
+    right: -320px; /* inicialmente fora da tela */
+    width: 310px;
+    height: 100%;
+    background: #12193b;
+    transition: 0.4s ease-in-out;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.5);
+    overflow-y: auto; /* ativa scroll vertical */
+    display: block !important;
+}
+
+/* Classe que abre a sidebar */
+#side-panel.open { 
+    right: 0 !important; 
+}
+
+/* Botão ativo */
+#btn-toggle-stream.active { 
+    background: #1E90FF; 
+}
+
+/* Hub cart (ícone de acesso rápido ao painel de categorias) */
+#hub-cart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 1px solid #1E90FF;
+    z-index: 1000;
+    display: none;
+    font-size: 20px;
+}
+
+/* =========================
+   3. LISTA DE CATEGORIAS E PRODUTOS
+   ========================= */
+.cat-item {
+    padding: 15px;
+    background: #f1f2f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Destaque do produto selecionado */
+.product-highlight { 
+    border: 2px solid #1E90FF;
+    border-radius: 12px;
+    padding: 15px;
+    background: #f0fff4;
+    text-align: center;
+}
+
+/* Imagem do recorte do vídeo */
+.crop-img { 
+    width: 100%; 
+    border-radius: 8px; 
+    background: #000; 
+    margin-bottom: 10px; 
+}
+
+/* Box para QR code */
+.qr-box { 
+    background: white; 
+    padding: 10px; 
+    margin-top: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    text-align: center; 
+}
+
+/* Scrollbar customizado para sidebar */
+#side-panel::-webkit-scrollbar { width: 6px; }
+#side-panel::-webkit-scrollbar-thumb { 
+    background: #1E90FF; 
+    border-radius: 10px; 
+}
+
+/* Texto pequeno dentro do hub-cart */
+.hub-cart {
+    font-size: 10px;
+}
+
+/* Lista de produtos relacionados */
+.rel-item {
+    color: #29c0f2;
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 15px;
+}

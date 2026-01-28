@@ -1,0 +1,16 @@
+name: vision_stream
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - opencv
+  - pillow
+  - pip:
+    - ultralytics
+    - flask
+    - flask-cors  
+    - requests
+    - python-dotenv 
